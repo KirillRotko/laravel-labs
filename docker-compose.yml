@@ -11,6 +11,7 @@ services:
     depends_on:
       - php
       - nodejs
+      - fastapi
   nodejs:
     image: node:alpine
     environment:
